@@ -1,0 +1,13 @@
+.nav_btn{
+    background-color: var(--color-lite-green);
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid var(--color-lite-green);
+    padding: 9px 20px;
+    border-radius: 8px;
+}
+.nav_btn:hover{
+    background-color: #fff;
+    color: var(--color-lite-green);
+}
