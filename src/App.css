@@ -77,3 +77,28 @@ img{
     padding-right: 40px !important;
   }
 }
+
+@media screen and (max-width:800px){
+  .text-large {
+    font-size: 48px;
+  }
+  .text-medium {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width:767px){
+  .text-large {
+    font-size: 24px;
+  }
+  .custom-container.custom_row {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .text-medium {
+    font-size: 24px;
+  }
+  .text-sm{
+    font-size: 16px;
+  }
+}

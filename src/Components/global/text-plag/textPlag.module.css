@@ -49,3 +49,28 @@
         margin: 130px 0;
     }
 }
+
+@media screen and (max-width:800px){
+    .plag_col {
+        padding: 25px 13px 41px !important;
+    }
+}
+
+@media screen and (max-width:767px){
+    .plag_row{
+        flex-direction: column;
+    }
+    .plag_sec{
+        margin: 80px 0;
+    }
+    .plag_row img{
+        width: 28%;
+    }
+    .plag_row h6{
+        font-size: 18px;
+        padding: 30px 0 0;
+    }
+    .plag_sec p{
+        font-size: 16px;
+    }
+}

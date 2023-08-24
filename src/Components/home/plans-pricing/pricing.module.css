@@ -76,16 +76,39 @@
 }
 .tggle_row{
     color: var(--color-dark);
-    
 }
 .switch{
     margin: 0 20px;
-   
 }
 
 
 @media screen and (max-width:1100px){
     .pricing_sec{
         margin: 130px 0 0;
+    }
+}
+
+@media screen and (max-width:800px){
+    .price_col{
+        padding: 40px 16px 20px !important;
+    }
+    .price_col h3{
+        font-size: 38px;
+    }
+    .price_col ul li{
+        margin-bottom: 13px;
+    }
+    .price_col ul li img {
+        width: 20px;
+        margin-right: 11px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .pricing_row{
+        flex-direction: column;
+    }
+    .pricing_sec{
+        margin: 80px 0 0;
     }
 }

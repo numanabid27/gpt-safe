@@ -34,3 +34,27 @@
 .banner_Col:nth-child(4){
     margin-top: 80px;
 }
+
+@media screen and (max-width:767px){
+    .banner_row{
+        flex-direction: column;
+    }
+    .banner{
+        padding: 49px 0 31px;
+    }
+   
+    .banner p{
+        font-size: 14px;
+    }
+    .banner_Col:nth-child(2),
+    .banner_Col:nth-child(6){
+        margin-top: 0px;
+    }
+    .banner_Col:nth-child(3),
+    .banner_Col:nth-child(5){
+        margin-top: 0px;
+    }
+    .banner_Col:nth-child(4){
+        margin-top: 0px;
+    }
+}
