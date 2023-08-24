@@ -1,17 +1,18 @@
 .number_sec{
-    margin: 100px 0;
+    margin: 202px 0 200px;
 }
 .number_row{
     margin-top: 30px !important;
     justify-content: center;
     display: grid !important;
-    gap: 94px;
+    gap: 178px;
     grid-template-columns: auto auto auto;
 }
 .number_row h6{
     color: var(--color-dark);
     font-size: 60px;
     font-weight:700 ;
+    padding-bottom: 19px;
 }
 .number_row p{
     color: var(--color-grey);
@@ -20,4 +21,10 @@
     color: var(--color-grey);
     text-align: center;
     padding-top: 20px;
+}
+
+@media screen and (max-width:1100px){
+    .number_sec{
+        margin: 130px 0 130px;
+    }
 }

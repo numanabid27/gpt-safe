@@ -57,13 +57,23 @@ img{
 .text-sm{
   font-size: 20px;
 }
-
+.navbar-light{
+  padding: 22px 0 !important;
+}
 .custom-container{
   margin: 0 auto;
-  max-width: 1302px;
-  padding-left: 15px !important;
-  padding-right: 15px !important;
+  max-width: 1280px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
 }
-.custom-container.custom_row{
-  max-width: 1222px;
+.custom-container.custom_row {
+  max-width: 1254px;
+}
+
+@media screen and (max-width:1284px){
+  .custom-container.custom_row{
+    max-width: 1233px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
 }

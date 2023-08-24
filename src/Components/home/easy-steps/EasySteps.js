@@ -27,7 +27,7 @@ export const EasySteps = () => {
             <section>
                 <div className='custom-container custom_row'>
                     <SecondHeading heading={<><span className='color-green'>3</span> Easy Steps</>} />
-                    <p className='text-sm color-grey text-center'>Introducing our AI plagiarism detection for AI-generated text, ensuring 95% accuracy. Elevate content authenticity, combat misinformation, and foster trust in the digital realm.</p>
+                    <p className='text-sm color-grey text-center pt-3'>Introducing our AI plagiarism detection for AI-generated text, ensuring 95% accuracy. Elevate content authenticity, combat misinformation, and foster trust in the digital realm.</p>
 
                     {
                         data.map(({ img, title, desc }, i) => {
@@ -35,10 +35,10 @@ export const EasySteps = () => {
                                 <Row className={style.steps_row}>
                                     <Col key={i.toString()}>
                                         <Row className={style.steps_inner__row}>
-                                            <Col>
+                                            <Col className='p-0'>
                                                 <img src={img} alt='' />
                                             </Col>
-                                            <Col>
+                                            <Col className='p-0'>
                                                 <h3>{i+1}</h3>
                                                 <h2>{title}</h2>
                                                 <p>{desc}</p>

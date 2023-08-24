@@ -37,7 +37,7 @@ export const OurCustomer = () => {
                 <div className='custom-container custom_row'>
                    <div className={style.customer_text}>
                         <SecondHeading heading="Our Customers Speak Volumes." />
-                        <p> Their testimonials reflect exceptional satisfaction, affirming our AI solutions' reliability, accuracy, and transformative impact.</p>
+                        <p className='pt-4'> Their testimonials reflect exceptional satisfaction, affirming our AI solutions' reliability, accuracy, and transformative impact.</p>
 
                     </div>
                     <Swiper

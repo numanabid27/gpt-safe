@@ -1,0 +1,94 @@
+{
+    "data" : [
+        {
+            "id":1,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"Transforming AI-Generated Text into Human-Like Prose",
+            "catategry":"Tag1",
+            "blogImag":"./images/blog.png",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Product Manager, Sisyphus"
+        },
+        {
+            "id":2,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"Transforming AI-Generated Text into Human-Like Prose",
+            "catategry":"Tag1",
+            "blogImag":"./images/blog.png",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Product Manager, Sisyphus"
+        },
+        {
+            "id":3,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"Transforming AI-Generated Text into Human-Like Prose",
+            "catategry":"Tag1",
+            "blogImag":"./images/blog.png",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Product Manager, Sisyphus"
+        },
+        {
+            "id":4,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"Transforming AI-Generated Text into Human-Like Prose",
+            "catategry":"Tag1",
+            "blogImag":"./images/blog.png",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Product Manager, Sisyphus"
+        },
+        {
+            "id":5,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"Transforming AI-Generated Text into Human-Like Prose",
+            "catategry":"Tag1",
+            "blogImag":"./images/blog.png",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Product Manager, Sisyphus"
+        },
+        {
+            "id":6,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"Transforming AI-Generated Text into Human-Like Prose",
+            "catategry":"Tag1",
+            "blogImag":"./images/blog.png",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Product Manager, Sisyphus"
+        },
+        {
+            "id":7,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"Transforming AI-Generated Text into Human-Like Prose",
+            "catategry":"Tag1",
+            "blogImag":"./images/blog.png",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Product Manager, Sisyphus"
+        },
+        {
+            "id":8,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"Transforming AI-Generated Text into Human-Like Prose",
+            "catategry":"Tag1",
+            "blogImag":"./images/blog.png",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Product Manager, Sisyphus"
+        },
+        {
+            "id":9,
+            "slug" :"Transforming-AI-Generated-Text-into-Human-Like-Prose",
+            "title":"Transforming AI-Generated Text into Human-Like Prose",
+            "catategry":"Tag1",
+            "blogImag":"./images/blog.png",
+            "userImg":"./images/user.png",
+            "userName" : "Candice Wu",
+            "designation" : "Product Manager, Sisyphus"
+        }
+    ]
+}

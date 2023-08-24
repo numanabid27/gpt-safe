@@ -1,0 +1,29 @@
+.banner_searc{
+    display: flex;
+}
+.banner_search img{
+    max-width: 20px;
+    margin-right: 10px;
+}
+.banner_search {
+    border: 1px solid #D0D5DD;
+    display: flex;
+    align-items: center;
+    padding: 7px 19px;
+    border-radius: 8px;
+    margin: 33px auto;
+    max-width: 600px;
+}
+.banner_search input[type=search]{
+    border: none;
+    background: transparent;
+}
+.banner_search input[type=search]:focus{
+    outline: none;
+}
+.banner_heading{
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+    padding-top: 81px;
+}

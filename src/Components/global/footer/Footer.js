@@ -9,10 +9,10 @@ export const Footer = () => {
             <footer className={style.footer_bg}>
                 <div className='custom-container custom_row'>
                     <Row className={style.footer_row}>
-                        <Col className={style.footer_logo_col}>
+                        <Col className={`${style.footer_logo_col} p-0`}>
                             <img src='./images/footer-logo.png' alt="" />
                         </Col>
-                        <Col>
+                        <Col className='p-0'>
                             <ul className={style.footer_list}>
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="#">Blogs</Link></li>
@@ -20,7 +20,7 @@ export const Footer = () => {
                                 <li><Link to="/contact-us">Contact Us</Link></li>
                             </ul>
                         </Col>
-                        <Col>
+                        <Col className='p-0'>
                             <ul className={style.social_list}>
                                 <li><Link to="#"><img src="./images/fb.png" alt="" /></Link></li>
                                 <li><Link to="#"><img src="./images/insta.png" alt="" /></Link></li>

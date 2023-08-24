@@ -2,8 +2,8 @@
     text-align: center;
 }
 .testimonial_col img{
-    max-width: 10%;
-    margin-bottom: 20px;
+    max-width: 9%;
+    margin-bottom: 12px;
 }
 .testimonial_col p{
     color: var(--color-grey);

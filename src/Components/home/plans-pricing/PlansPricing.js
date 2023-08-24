@@ -2,6 +2,10 @@ import React from 'react';
 import { SecondHeading } from '../../global/headings/second-heading/SecondHeading';
 import style from "./pricing.module.css";
 import { Row, Col } from 'react-bootstrap';
+import { styled } from '@mui/material/styles';
+import FormGroup from '@mui/material/FormGroup';
+import Switch, { SwitchProps } from '@mui/material/Switch';
+
 
 export const PlansPricing = () => {
     const data = [
@@ -111,14 +115,61 @@ export const PlansPricing = () => {
             ]
         },
     ]
+    const AntSwitch = styled(Switch)(({ theme }) => ({
+        width: 28,
+        height: 16,
+        padding: 0,
+        display: 'flex',
+        '&:active': {
+          '& .MuiSwitch-thumb': {
+            width: 15,
+          },
+          '& .MuiSwitch-switchBase.Mui-checked': {
+            transform: 'translateX(9px)',
+          },
+        },
+        '& .MuiSwitch-switchBase': {
+          padding: 2,
+          '&.Mui-checked': {
+            transform: 'translateX(12px)',
+            color: '#fff',
+            '& + .MuiSwitch-track': {
+              opacity: 1,
+              backgroundColor: theme.palette.mode === 'dark' ? '#177ddc' : '#1890ff',
+            },
+          },
+        },
+        '& .MuiSwitch-thumb': {
+          boxShadow: '0 2px 4px 0 rgb(0 35 11 / 20%)',
+          width: 12,
+          height: 12,
+          borderRadius: 6,
+          transition: theme.transitions.create(['width'], {
+            duration: 200,
+          }),
+        },
+        '& .MuiSwitch-track': {
+          borderRadius: 16 / 2,
+          opacity: 1,
+          backgroundColor:
+            theme.palette.mode === 'dark' ? 'rgba(255,255,255,.35)' : 'rgba(0,0,0,.25)',
+          boxSizing: 'border-box',
+        },
+      }));
+   
   return (
     <>
         <section className={style.pricing_sec}>
             <div className='custom-container custom_row'>
                 <div className={style.pricing_col}>
                     <SecondHeading heading="Plans and Pricings" />
-                    <p>Our pricing model reflects flexibility and value. Tailored plans cater to diverse needs, ensuring access to accurate AI plagiarism detection without compromising affordability. Choose a plan that suits you best.</p>
+                    <p className='pt-3'>Our pricing model reflects flexibility and value. Tailored plans cater to diverse needs, ensuring access to accurate AI plagiarism detection without compromising affordability. Choose a plan that suits you best.</p>
                 </div>
+                <FormGroup className={style.tggle_row}>
+                    <p>Pay Monthly</p>
+                    <AntSwitch defaultChecked inputProps={{ 'aria-label': 'ant design' }} className={style.switch}/>
+                    <p>Pay Yearly</p>
+                </FormGroup>
                 <Row className={style.pricing_row}>
                     {
                         data.map(({title, desc, price, list})=>{
@@ -151,3 +202,5 @@ export const PlansPricing = () => {
     </>
   )
 }
+
+

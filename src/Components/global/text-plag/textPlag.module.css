@@ -1,26 +1,51 @@
 .plag_row{
     gap:20px;
-    padding-top: 30px;
+    padding-top: 42px;
+}
+.plag_row2{
+    padding-top: 35px;
+}
+.plag_row2 img{
+    width: 21% !important;
 }
 .plag_row img{
-    width: 23%;
+    width: 35%;
 }
 .plag_row h6{
     font-size: 20px;
-    color: var( --color-dark);
+    color: var(--color-dark);
     font-weight: 600;
-    padding: 12px 0;
+    padding: 40px 0 0;
 }
 .plag_row p{
     color: var(--color-grey );  
 }
 .plag_col{
-    padding: 25px 23px !important;
+    padding: 25px 23px 41px !important;
     border-radius: 9px;
 }
+.plag_col2{
+    padding: 32px 22px 41px !important;
+}
 .plag_sec{
-    margin: 100px 0;
+    margin: 200px 0;
 }
 .plag_sec p{
-    padding-top: 10px;
+    padding-top: 20px;
+}
+.addClass{
+    margin: 203px 0 205px;
+}
+.Plag_text{
+    margin: 0 auto;
+    max-width: 1008px;
+}
+
+@media screen and (max-width:1100px){
+    .addClass{
+        margin: 130px 0 130px;
+    }
+    .plag_sec{
+        margin: 130px 0;
+    }
 }

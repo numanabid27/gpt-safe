@@ -11,3 +11,9 @@
     background-color: #fff;
     color: var(--color-lite-green);
 }
+.nav_listing{
+    gap: 29px;
+}
+.nav_listing a{
+    text-decoration: none;
+}

@@ -57,6 +57,8 @@ export const Home = () => {
         data2={data2}
         heading={<>Simple And Credible open AI to <span className='color-green'>heck Ai Generated</span> Text Plagiarism</>}
         para="See What Sets GPTSAFE apart"
+        styling={true}
+        styling2={false}
       />
       <EasySteps />
       <PlansPricing />
@@ -69,6 +71,8 @@ export const Home = () => {
         data2={data3}
         heading="Gptsafe's Services"
         para="An all-inclusive service offering AI-generated text detection, safeguarding against deceptive content. Elevate your content with the ability to transform AI text into a natural, human-like tone, ensuring authenticity and credibility."
+        styling={false}
+        styling2={true}
       />
       <OurCustomer />
     </>

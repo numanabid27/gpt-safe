@@ -1,0 +1,29 @@
+.boots_sec{
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 62px;
+    border-radius: 15px;
+}
+.boots_sec p{
+    color: var(--color-dark);
+    font-size: 20px;
+}
+.boots_sec h5{
+    color: #000;
+    font-size: 40px;
+    padding: 20px 0 13px;
+}   
+.boots_sec h6{
+    font-size: 16px;
+    color: var(--color-grey);
+}
+.boots_sec a{
+    background: #A0E4DE;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 48px;
+}

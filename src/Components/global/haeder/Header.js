@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useLocation } from 'react-router-dom';
 import style from "./header.module.css";
-
+import { Link } from 'react-router-dom';
 
 export const Header = () =>{
     const location = useLocation();
@@ -19,14 +19,14 @@ export const Header = () =>{
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="m-auto my-2 my-lg-0"
+            className={`${style.nav_listing} m-auto my-2 my-lg-0`}
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#" className='color-dark'>Home</Nav.Link>
-            <Nav.Link href="#" className='color-dark'>About</Nav.Link>
-            <Nav.Link href="#" className='color-dark'>Blog</Nav.Link>
-            <Nav.Link href="#" className='color-dark'>Faq's</Nav.Link>
+            <Link to="/" className='color-dark'>Home</Link>
+            <Link to="#" className='color-dark'>About</Link>
+            <Link to="/blog" className='color-dark'>Blog</Link>
+            <Link to="#" className='color-dark'>Faq's</Link>
            
           </Nav>
           <div className="d-flex">

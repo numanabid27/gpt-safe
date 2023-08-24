@@ -11,7 +11,7 @@ export const Numbers = ({heading, para, data}) => {
             <div className='custom-container custom_row'>
                 <div className={style.number_text}>
                     <SecondHeading heading={heading} />
-                    <p>{para}</p>
+                    <p className='pt-4'>{para}</p>
                 </div>
                 <Row className={style.number_row}>
                     {

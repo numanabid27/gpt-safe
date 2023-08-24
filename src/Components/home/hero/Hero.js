@@ -16,35 +16,36 @@ export const Hero = () => {
                <Link to="#" className={`${style.banner_btn}`}>Check AI Generated Text Plagiarism</Link>
             </div>
 
-            <Row>
-                <Col className="p-0">
+            
+        </div>
+        <Row className={style.banner_row}>
+                <Col className={`${style.banner_Col} p-0`}>
                     <img src='./images/f12.png'  alt='' />
                 </Col>
-                <Col className="p-0 mt-3">
+                <Col className={`${style.banner_Col} p-0`}>
                     <img src='./images/f11.png'  alt='' />
                 </Col>
-                <Col className="p-0 mt-4">
+                <Col className={`${style.banner_Col} p-0`}>
                     <img src='./images/f10.png'  alt='' />
                     <img src='./images/f9.png'  alt='' />
                 </Col>
-                <Col className="p-0 mt-5">
+                <Col className={`${style.banner_Col} p-0`}>
                     <img src='./images/f8.png'  alt='' />
                     <img src='./images/f7.png'  alt='' />
                 </Col>
-                <Col className="p-0 mt-4">
+                <Col className={`${style.banner_Col} p-0`}>
                     <img src='./images/f6.png'  alt='' />
                     <img src='./images/f5.png'  alt='' />
                 </Col>
-                <Col className="p-0 mt-3">
+                <Col className={`${style.banner_Col} p-0`}>
                     <img src='./images/f4.png'  alt='' />
                     <img src='./images/f3.png'  alt='' />
                 </Col>
-                <Col className="p-0">
+                <Col className={`${style.banner_Col} p-0`}>
                     <img src='./images/f2.png'  alt='' />
                     <img src='./images/f1.png'  alt='' />
                 </Col>
             </Row>
-        </div>
     </section>
   )
 }
