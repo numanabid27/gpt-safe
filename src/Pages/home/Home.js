@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Hero } from '../../Components/home/hero/Hero'
 import { TextPlagirism } from '../../Components/global/text-plag/TextPlagirism'
 import { EasySteps } from '../../Components/home/easy-steps/EasySteps'
@@ -50,6 +50,9 @@ export const Home = () => {
         desc:"Experience next-level AI capabilities. Our service seamlessly transforms AI-generated text into a human-like tone, enhancing communication authenticity and engagement. Elevate your content with unparalleled naturalness."
     }
   ]
+  useEffect(()=>{
+    document.title = "Home"
+  },[])
   return (
     <>
       <Hero />

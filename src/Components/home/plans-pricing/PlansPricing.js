@@ -135,7 +135,7 @@ export const PlansPricing = () => {
             color: '#fff',
             '& + .MuiSwitch-track': {
               opacity: 1,
-              backgroundColor: theme.palette.mode === 'dark' ? '#177ddc' : '#1890ff',
+              backgroundColor: theme.palette.mode === 'dark' ? '#2EA399' : '#2EA399',
             },
           },
         },
@@ -169,6 +169,7 @@ export const PlansPricing = () => {
                     <p>Pay Monthly</p>
                     <AntSwitch defaultChecked inputProps={{ 'aria-label': 'ant design' }} className={style.switch}/>
                     <p>Pay Yearly</p>
+                    <img src='./images/save.png' alt='' />
                 </FormGroup>
                 <Row className={style.pricing_row}>
                     {

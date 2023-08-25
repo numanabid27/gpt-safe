@@ -73,9 +73,18 @@
     justify-content: center;
     align-items: center;
     padding: 62px 0;
+    position: relative;
 }
 .tggle_row{
     color: var(--color-dark);
+}
+.tggle_row img{
+    position: absolute;
+    width: 12%;
+    left: 0;
+    right: -181px;
+    margin: auto;
+    bottom: 0;
 }
 .switch{
     margin: 0 20px;
@@ -120,5 +129,9 @@
     }
     .price_col{
         background-color: #fff;
+    }
+    .tggle_row img{
+        width: 40%;
+        right: -158px;
     }
 }

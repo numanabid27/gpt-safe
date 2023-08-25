@@ -6,12 +6,13 @@ import style from "./blog-detail.module.css";
 export const BlogDetail = () => {
   const [isActive, setIsAtive] = useState({});
   const { id } = useParams();
-  const result = data.data
+  const result = data.data;
   useEffect(() => {
     const blog = result.find(blog => blog.id === parseInt(id))
     setIsAtive(blog);
+    document.title = blog.title;
   }, [result, id])
-  console.log(isActive)
+  
   return (
     <>
       <section className='custom-container'>

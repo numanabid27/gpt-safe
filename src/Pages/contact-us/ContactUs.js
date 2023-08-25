@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Banner } from '../../Components/contact/banner/Banner'
 import { TextPlagirism } from '../../Components/global/text-plag/TextPlagirism'
 import { Numbers } from '../../Components/global/numbers/Numbers'
 import { OurCustomer } from '../../Components/global/our-customer/OurCustomer'
 
 export const ContactUs = () => {
+  useEffect(()=>{
+    document.title = "Contact Us"
+  },[])
   const data = [
     {
       title : "2M+",
