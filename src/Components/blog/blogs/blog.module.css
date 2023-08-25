@@ -41,4 +41,27 @@
     color: var(--color-dark);
     font-size: 20px;
     font-weight: 600;
+    padding: 10px 0 17px;
+}
+
+
+@media screen and (max-width:800px){
+    .blog_row{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:767px){
+    .blog_row{
+        grid-template-columns: auto;
+    }
+    .blog_col h2{
+        font-size: 18px;
+    }
+    .blog_col span{
+        font-size: 14px;
+    }
+    .blog_col h2{
+        padding: 5px 0 5px;
+    }
 }

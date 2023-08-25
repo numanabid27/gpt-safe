@@ -101,4 +101,30 @@ img{
   .text-sm{
     font-size: 16px;
   }
+  .mySwiper{
+    padding-bottom: 84px !important;
+  }
+  .mySwiper .swiper-button-next{
+    bottom: 17px;
+    position: absolute;
+    top: unset;
+    left: 0px;
+    right: -64px;
+    margin: auto;
+  }
+  .mySwiper .swiper-button-prev{
+    bottom: 17px;
+    position: absolute;
+    top: unset;
+    left: -64px;
+    right: 0;
+    margin: auto;
+  }
+  .navbar-toggler{
+    border: none !important;
+    outline: none !important;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none !important;
+  }
 }

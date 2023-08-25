@@ -111,4 +111,14 @@
     .pricing_sec{
         margin: 80px 0 0;
     }
+    .price_col a{
+        margin: 25px 0 25px;
+    }
+    .price_col h3,
+    .price_col h2{
+        font-size: 30px;
+    }
+    .price_col{
+        background-color: #fff;
+    }
 }

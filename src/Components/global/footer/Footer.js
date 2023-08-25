@@ -10,7 +10,7 @@ export const Footer = () => {
                 <div className='custom-container custom_row'>
                     <Row className={style.footer_row}>
                         <Col className={`${style.footer_logo_col} p-0`}>
-                            <img src='./images/footer-logo.png' alt="" />
+                            <img src='../images/footer-logo.png' alt="" />
                         </Col>
                         <Col className='p-0'>
                             <ul className={style.footer_list}>

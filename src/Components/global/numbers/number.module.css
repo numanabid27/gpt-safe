@@ -42,4 +42,17 @@
     .number_row{
        grid-template-columns: auto;
     }
+    .number_sec{
+        margin: 80px 0 80px;
+    }
+    .number_col{
+        text-align: center;
+    }
+    .number_row{
+        gap: 27px;
+    }
+    .number_row h6{
+        font-size:38px;
+        padding-bottom: 5px;
+    }
 }

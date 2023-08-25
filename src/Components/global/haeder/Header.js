@@ -14,14 +14,13 @@ export const Header = () =>{
     <Navbar expand="lg" className="">
       <Container fluid className='custom-container'>
         <Navbar.Brand href="#">
-            <img src="./images/logo.png" alt="" />
+            <img src="../images/logo.png" alt="" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Toggle  />
+        <Navbar.Collapse >
           <Nav
             className={`${style.nav_listing} m-auto my-2 my-lg-0`}
-            style={{ maxHeight: '100px' }}
-            navbarScroll
+            
           >
             <Link to="/" className='color-dark'>Home</Link>
             <Link to="#" className='color-dark'>About</Link>

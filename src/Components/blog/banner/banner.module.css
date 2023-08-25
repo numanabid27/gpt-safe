@@ -17,6 +17,7 @@
 .banner_search input[type=search]{
     border: none;
     background: transparent;
+    width: 100%;
 }
 .banner_search input[type=search]:focus{
     outline: none;

@@ -23,3 +23,10 @@
     padding-top: 15px;
     color: var(--color-grey);
 }
+
+
+@media screen and (max-width:767px){
+    .testimonial_col img{
+        max-width: 24%;
+    }
+}
