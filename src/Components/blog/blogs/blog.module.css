@@ -43,8 +43,15 @@
     font-weight: 600;
     padding: 10px 0 17px;
 }
-
-
+.pagination{
+    margin: 47px auto 0;
+    display: flex;
+    justify-content: center;
+}
+.pagination ul li button{
+    margin: 0 0;
+    border-radius: 0;
+}
 @media screen and (max-width:800px){
     .blog_row{
         grid-template-columns: auto auto;
