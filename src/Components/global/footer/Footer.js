@@ -15,8 +15,8 @@ export const Footer = () => {
                         <Col className='p-0'>
                             <ul className={style.footer_list}>
                                 <li><Link to="/">Home</Link></li>
-                                <li><Link to="#">Blogs</Link></li>
                                 <li><Link to="#">About</Link></li>
+                                <li><Link to="#">Services</Link></li>
                                 <li><Link to="/contact-us">Contact Us</Link></li>
                             </ul>
                         </Col>

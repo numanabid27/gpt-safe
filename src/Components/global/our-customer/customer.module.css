@@ -2,8 +2,10 @@
     text-align: center;
 }
 .testimonial_col img{
-    max-width: 9%;
-    margin-bottom: 12px;
+    max-width: 12%;
+    margin-bottom: 26px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .testimonial_col p{
     color: var(--color-grey);

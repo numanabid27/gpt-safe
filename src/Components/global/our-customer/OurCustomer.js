@@ -13,22 +13,22 @@ import { Navigation } from 'swiper/modules';
 export const OurCustomer = () => {
     const slide = [
         {
-            img: "./images/testimonial.png",
-            para: "Absolutely amazed by the AI-generated text detection accuracy. It's like having a digital truth detector. This system is a game-changer for content integrity!",
-            clientname: "Candice Wu",
-            des: "Product Manager, Sisyphus"
+            img: "https://themewagon.github.io/builerz/img/testimonial-3.jpg",
+            para: "The team delivered exceptional quality on our commercial project. From planning to execution, everything was flawless!",
+            clientname: "John Miller",
+            des: " Real Estate Developer"
         },
         {
-            img: "./images/testimonial.png",
-            para: "Absolutely amazed by the AI-generated text detection accuracy. It's like having a digital truth detector. This system is a game-changer for content integrity!",
-            clientname: "Candice Wu",
-            des: "Product Manager, Sisyphus"
+            img: "https://themewagon.github.io/builerz/img/testimonial-2.jpg",
+            para: "Our home renovation was completed on time and exceeded our expectations. The craftsmanship is top-notch!",
+            clientname: "Lisa Brown",
+            des: " Homeowner"
         },
         {
-            img: "./images/testimonial.png",
-            para: "Absolutely amazed by the AI-generated text detection accuracy. It's like having a digital truth detector. This system is a game-changer for content integrity!",
-            clientname: "Candice Wu",
-            des: "Product Manager, Sisyphus"
+            img: "https://themewagon.github.io/builerz/img/testimonial-1.jpg",
+            para: "Highly professional and reliable! They handled our high-rise construction efficiently and met all deadlines.",
+            clientname: "Robert Wilson",
+            des: " Project Manager"
         },
     ]
     return (
@@ -36,8 +36,9 @@ export const OurCustomer = () => {
             <section>
                 <div className='custom-container custom_row'>
                    <div className={style.customer_text}>
-                        <SecondHeading heading="Our Customers Speak Volumes." />
-                        <p className='pt-4'> Their testimonials reflect exceptional satisfaction, affirming our AI solutions' reliability, accuracy, and transformative impact.</p>
+                        {/* <SecondHeading heading="What Our Clients Say About Us" /> */}
+                        <SecondHeading heading={<>What  <span className='color-yellow'>Our Clients</span> Say About Us </>} />
+                        <p className='pt-4'> At the core of our construction projects is customer satisfaction. We take pride in delivering top-quality work that exceeds expectations. See what our clients have to say about their journey with us!</p>
 
                     </div>
                     <Swiper

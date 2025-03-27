@@ -17,12 +17,20 @@ export const TextPlagirism = ({data2, heading, para, styling, styling2}) => {
 
                 <Row className={`${style.plag_row} ${styling2 && style.plag_row2}`}>
                     {
-                        data2.map(({img, title, desc}, i)=>{
+                        data2.map(({img, title, desc, icon}, i)=>{
                             return(
-                                <Col className={`${ styling2 ? style.plag_col2 : style.plag_col} color-white text-center`} key={i.toString()}>
-                                    <img src={img} alt="" />
-                                    <h6>{title}</h6>
-                                    <p>{desc}</p>
+                                <Col className={style.cardz}>
+                                    {/* Background Image Container */}
+                                    <div className={style.imageContainer} style={{ backgroundImage: `url(${img})` }}></div>
+
+                                    {/* Content Section */}
+                                    <div className={style.content}>
+                                        <div className={style.icon}>
+                                            <img src={icon} alt="icon" style={{ width: "40px", height: "40px" }} /> {/* Icon as an Image */}
+                                        </div>
+                                        <h6>{title}</h6> {/* Dynamic Title */}
+                                        <p>{desc}</p> {/* Dynamic Description */}
+                                    </div>
                                 </Col>
                             )
                         })
