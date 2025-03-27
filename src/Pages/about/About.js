@@ -1,14 +1,6 @@
-import React from 'react'
-import { Hero } from '../../Components/about/about/Hero'
-import About from '../../Components/about/About'
+import AboutComponent from "../../Components/about/about"
 
-function About() {
-  return (
-    <div>
-      {/* <About /> */}
-      <p>qwdqwdd</p>
-    </div>
-  )
+
+export const About = () => {
+  return <AboutComponent />
 }
-
-export default About

@@ -6,12 +6,11 @@ import {
   useParams,
 } from 'react-router-dom';
 import { Home } from "./Pages/home/Home";
-import { About } from "";
 import { Layout } from "./Components/layout/Layout";
 import { ContactUs } from "./Pages/contact-us/ContactUs";
 import { Blog } from "./Pages/blog/Blog";
 import { BlogDetail } from "./Pages/blog/BlogDetail";
-
+import { About } from "./Pages/about/About";
 
 
 export const App = () => {
