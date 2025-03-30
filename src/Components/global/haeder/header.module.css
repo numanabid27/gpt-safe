@@ -34,6 +34,7 @@
 }
 .nav__stl {
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1000;
     transition: background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;

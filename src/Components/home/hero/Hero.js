@@ -50,7 +50,7 @@ export const Hero = () => {
     <section className={`${style.hero_sec}`} >
     {/* Background Video */}
     <video className={`${style.hero_video}`} autoPlay loop muted playsInline>
-        <source src="./images/hero_video.mp4" type="video/mp4" />
+        <source src="./images/home_hero_video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
     </video>
     <div className={`${style.hero_overlay}`}></div>

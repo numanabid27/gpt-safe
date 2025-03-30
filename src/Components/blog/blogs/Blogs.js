@@ -15,29 +15,28 @@ export const Blogs = () => {
                         data.data?.map((item) => {
                             return (
                                 <div key={item.id} className={style.blog_col}>
-                                    <Link to={`/blog/${item.id}`}>
-                                        <img src={item.blogImag} alt='' />
-                                        <span>{item.catategry}</span>
-                                        <h2>{item.title}</h2>
-                                        <div className={style.use_row}>
-                                            <div>
-                                                <img src={item.userImg} alt="" />
-                                            </div>
-                                            <div>
-                                                <h6>{item.userName}</h6>
-                                                <p>{item.designation}</p>
-                                            </div>
+                                <Link to={`/blog/${item.id}`} className={style.blogCard}>
+                                    <img src={item.blogImag} alt='' />
+                                    <h2>{item.title}</h2>
+                                    <div className={style.use_row}>
+                                        <div>
+                                            <p>{item.designation}</p>
                                         </div>
-                                    </Link>
+                                    </div>
+                                    <div className={style.btnWrapper}>
+                                        <button className={style.readmore_btn} type='button'>Learn More</button>
+                                    </div>
+                                </Link>
+
                                 </div>
                             )
                         })
                     }
                 </div>
 
-                <div className={style.pagination}>
+                {/* <div className={style.pagination}>
                     <Pagination count={10} variant="outlined" shape="rounded" />
-                </div>
+                </div> */}
             </section>
         </>
     )

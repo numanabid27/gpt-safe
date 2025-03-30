@@ -21,10 +21,15 @@
     border-radius: 22px;
     margin: 14px 0 23px;
 }
+.blog_col img{
+    height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+}
 .use_row {
     display: flex;
     align-items: center;
-    margin-top: 17px;
+    /* margin-top: 17px; */
 }
 .use_row img{
     width: 41px;
@@ -41,7 +46,7 @@
     color: var(--color-dark);
     font-size: 20px;
     font-weight: 600;
-    padding: 10px 0 17px;
+    padding: 20px 0 17px;
 }
 .pagination{
     margin: 47px auto 0;
@@ -72,3 +77,17 @@
         padding: 5px 0 5px;
     }
 }
+.readmore_btn {
+    color: var(--color-yellow);
+    border: 0;
+    background-color: transparent;
+    margin-top: 12px;
+}
+.blogCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Ensure all cards have the same height */
+}
+
+
